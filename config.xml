@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.wh.test"
+    version   = "1.0.0">
+
+<name>Android 2.2 WH sample</name>
+
+<description>
+A simple PhoneGap Build application.
+</description>
+
+<author href="https://8628life.com" email="18139437@qq.com">
+Ref
+</author>
+<preference name="android-targetSdkVersion" value="8" />
+<icon src="icons/ldpi.png" gap:platform="android" gap:density="ldpi" />
+<icon src="icons/mdpi.png" gap:platform="android" gap:density="mdpi" />
+<icon src="icons/hdpi.png" gap:platform="android" gap:density="hdpi" />
+<icon src="icons/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+
+
+
+<feature name="http://api.phonegap.com/1.0/battery"/>
+<feature name="http://api.phonegap.com/1.0/camera"/>
+<feature name="http://api.phonegap.com/1.0/contacts"/>
+<feature name="http://api.phonegap.com/1.0/file"/>
+<feature name="http://api.phonegap.com/1.0/geolocation"/>
+<feature name="http://api.phonegap.com/1.0/media"/>
+<feature name="http://api.phonegap.com/1.0/network"/>
+<feature name="http://api.phonegap.com/1.0/notification"/>
+
+</widget>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" id="metaViewport" content="width=device-width, initial-scale=1">
+    
+    <title>Hello PhoneGap</title>
+
+        
+        <meta charset="utf-8">
+
+
+        <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+        
+		<script type="text/javascript">
+		
+
+        function onBodyLoad()
+        {       
+            document.addEventListener("deviceready", onDeviceReady, false);
+        }
+
+
+        </script>
+        
+        <style>
+			#header hgroup {
+			line-height: 125%;
+			}
+			hgroup {display: block;}
+			#header h1 { 	color: #6d6c67; 
+							white-space: nowrap; 
+							-webkit-margin-before: 0.67em;
+							-webkit-margin-after: 0.67em;
+							-webkit-margin-start: 0px;
+							-webkit-margin-end: 0px;}
+			h1, h2 { font-family: 'MisoCubiq', helvetica, arial, sans-serif; text-transform: uppercase;}
+			 div, h1, h2{margin:0px; padding:0px; border:0px;}
+			 h2{font-size: 1.85em;
+			 	color:#a32918;
+				text-shadow: 0 1px 0 #fff;
+			 }
+			 #logo{
+				 background: url(images/laurel@2x.png) 50% 0 no-repeat;
+				-webkit-background-size: 102px 90px;
+				background-size: 102px 90px;
+				padding-bottom: 20px;
+				border-bottom: 1px solid #B8B6AF;
+			 }
+			 #header{
+				 float: left;
+				 width: 200px;
+				 text-align:center;
+			 }
+		</style>
+    </head>
+    <body onload="onBodyLoad()">
+    <h1>Hey, it's PhoneGap!</h1>
+    <header id="header">
+        <div id="logo">
+                <canvas id="cube" width="102" height="90"></canvas>
+                <hgroup>
+                    <h1>URBANlife Kicks</h1>
+                    <h2>8629life.com</h2>
+                </hgroup>
+            </div>
+        </div>
+     </header>
+    <ul>
+    
+    <li><a href="mobile.html">link click</a></li>
+    <li><a href="http://192.168.1.108/dreamweaver_site/jsonApi.php">php</a></li>
+    <li><a href="http://www.baidu.com">Internet</a></li>
+    </ul>
+    </body>
+    <script type="text/javascript" src="js/cube.js"></script>
+</html>
+
